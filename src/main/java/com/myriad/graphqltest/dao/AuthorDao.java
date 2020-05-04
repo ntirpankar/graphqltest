@@ -1,10 +1,12 @@
 package com.myriad.graphqltest.dao;
 
 import com.myriad.graphqltest.models.Author;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
+@Component
 public class AuthorDao {
 
     public Author getAuthorById(String id){
